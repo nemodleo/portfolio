@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for projects in infos.projects %}
+    <p>{{projects.title, projects.period, projects.github, projects.img, projects.note}}</p>
+    {% endfor %}
+{% endblock %}
