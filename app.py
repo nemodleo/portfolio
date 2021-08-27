@@ -14,17 +14,17 @@ app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
 
-@app.route("./")
+@app.route("/")
 def index():
     infos = pages.get_or_404("info")
     return render_template('index.html', infos=infos)
 
-@app.route("./experiences/")
+@app.route("/experiences/")
 def experience():
     infos = pages.get_or_404("experiences")
     return render_template('experiences.html', infos=infos)
 
-@app.route("./projects/")
+@app.route("/projects/")
 def project():
     infos = pages.get_or_404("projects")
     return render_template('projects.html', infos=infos)
