@@ -21,7 +21,7 @@
         <header>
         <nav class="head">
             <ul>
-                <li><a href="/">Info</a></li>
+                <li><a href="/portfolio/">Info</a></li>
                 <li><a href="/portfolio/experiences">Experiences</a></li>
                 <li><a href="/portfolio/projects">Projects</a></li>
             </ul>

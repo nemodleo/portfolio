@@ -14,7 +14,7 @@ app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
 
-@app.route("/")
+@app.route("/portfolio/")
 def index():
     infos = pages.get_or_404("info")
     return render_template('index.html', infos=infos)
