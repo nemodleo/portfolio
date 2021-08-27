@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for experience in infos.experiences %}
+    <p>{{experience.title, experience.place, experience.type, experience.period, experience.note}}</p>
+    {% endfor %}
+
+    {% for achievement in infos.achievements %}
+    <p>{{achievement.title, achievement.period, achievement.note}}</p>
+    {% endfor %}
+
+{% endblock %}

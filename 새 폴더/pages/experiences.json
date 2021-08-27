@@ -1,0 +1,35 @@
+{ 
+    "experiences": [{
+    "title": "Connectome Lab Internship",
+    "place": "Seoul, Korea",
+    "type": "Intern",
+    "period": "Jan. 2021 ~ Jun. 2021",
+    "note": null
+  },
+  {
+    "title": "Seoul National University, Dept. of Computer Science and Engineering",
+    "place": "Seoul, Korea",
+    "type": "Student",
+    "period": "Mar. 2019 ~",
+    "note": "Majoring in of Computer Science and Engineering"
+  },
+  {
+    "title": "Incheon Academy of Science and Arts",
+    "place": "Incheon, Korea",
+    "type": "Student",
+    "period": "Mar. 2016 ~ Jan. 2019",
+    "note": null
+  }],
+  "achievements": [
+    {
+      "title": "Tensorflow Certification",
+      "period": "Oct. 2021",
+      "note": null
+    },
+    {
+      "title": "Samsung Humantech Paper Award - Participation Award",
+      "period": null,
+      "note": "Thesis= Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles= Leader and Speaker"
+    }
+  ]
+}

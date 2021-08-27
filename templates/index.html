@@ -1,10 +1,68 @@
 {% extends "base.html" %}
 
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='index_style.css') }}" >
+{% endblock %}
+
 {% block content %}
+    <div class="main">
+        <h1>MEDIC<br>IMAGE<br>T<span style="color: #E87F2E;">RAIN</span><br>STUDY</h1>
+    </div>
 
-    {% for int in infos.interest %}
-    <p>{{int}}</p>
-    {% endfor %}
+    <div class="bottom_main">
+        
+        <div class="bottom_main_box">
+            <h3>About</h3>
+            <table>
+                {% for label, item in infos.about.items() %}
+                <tr>
+                    <th>{{label}}</th>
+                    <th>{{item}}</th>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
 
 
+        <div class="bottom_main_box">
+            <h3>Ability</h3>
+            <table>
+                {% for label, item in infos.skills.items() %}
+                <tr>
+                    <th>{{label}}</th>
+                    <th>{{item}}</th>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="bottom_main_box">
+            <h3>Introduce</h3>
+            {% for explain in infos.explain %}
+            <p>{{explain}}</p>
+            {% endfor %}
+        </div>
+
+        <p style="text-align: center; margin-top: 80px; margin-bottom: 0; font-size: small; color: #000;"># Made by nemodleo (Hyun Park)</p>
+    </div>
+{% endblock %}
+
+{% block content2 %}
+<div class="left_main">
+    <h5>{{infos.name}}</h5>
+    <p>{{infos.school}}</p>
+</div>
+<div class="right_main">
+    <h5>Undergraduate (3)</h5>
+    <p>Computer Science and Engineering</p>
+</div>
+
+<div class="icons">
+    <div class="icons_box">
+        <a href=mailto:{{infos.email}}><img class="title-logo" src="static/images/gmail.svg"></a>
+        <a href={{infos.github}}><img class="title-logo" src="static/images/github.svg"></a>
+        <a href={{infos.docker}}><img class="title-logo" src="static/images/docker.svg"></a>
+        <a href={{infos.notion}}><img class="title-logo" src="static/images/notion.svg"></a>
+        <a href={{infos.linkedin}}><img class="title-logo" src="static/images/linkedin.svg"></a>
+    </div>
+</div>
 {% endblock %}

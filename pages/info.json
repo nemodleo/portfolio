@@ -3,13 +3,40 @@
     "department": "Dept. of Computer Science and Engineering",
     "school": "Seoul National University",
     "email": "nemod.leo@snu.ac.kr",
+    "github": "https://github.com/nemodleo",
+    "linkedin": "https://www.linkedin.com/in/hyun-park-8320a2180/",
+    "instagram": null,
+    "docker":"https://hub.docker.com/repository/docker/nemodleo",
+    "notion":null,
     "mobile": "+82-10-4186-7148",
-    "interest": [
-      "asdf",
-      "Medical imaging"
+    "about": {
+      "이름": "박현",
+      "생년월일": "2000 02 04",
+      "학력": "서울대학교 컴퓨터공학부 6학기 등록, 휴학 예정",
+      "현재 상황": "현역 학사 산업기능요원(정보처리산업기사) 편입 중",
+      "사는 곳": "낙성대역 3분 거리",
+      "전화번호": "010-4186-7148"
+    },
+    "explain": [
+      "안녕하세요. 저는 2021년 산업기능요원 편입 중입니다.",
+      "ML을 포함한 다양한 분야 공부, 이를 이용한 신박한 무언가를 만드는 개발 좋아합니다.",
+      "뭔가 하나에 빠지면 몰입하는 성격이고 그때그때 찾아보고 문제해결하는 것에 익숙합니다.",
+      "Deep Learning에 관심이 많고 특히, Medical AI에 큰 관심있습니다.",
+      "model 속도 향상, model 구조, 특히나 data preprocessing에 관심많습니다.",
+      "지금 흥미있는 것은 GAN, Transformer, Kubeflow 여서 시간되는 대로 공부 중입니다.",
+      "병특하면서 AI FLywheel (MLOps) 경험, Vision 분야 많은 논문 공부 및 구현, 모델 최적화을 경험하고 싶습니다.",
+      "지금은 FastMRI Challenge가 끝나 code 정리, Connectome Lab 간단한 작업과 개인 공부(GAN / TF certification),",
+      "특히 unMASK 프로젝트에 몰두하고 있습니다.",
+      "시간이 여유로워지면 Lab에서 진행중이었던 연구(Brain / social marker and GPS etc..)을 마져 할 생각입니다.",
+      "병특을 하더라도 가능하다면 청강을 생각중인 수업: (확장형 고성능 컴퓨팅: Pthreads, OpenMP, MPI, OpenCL과 CUDA)",
+      "지금은 많이 부족하지만 빠르게 배울 수 있습니다."      
     ],
     "skills": {
-      "language": "Python(2.x and 3.x) / JAVA / C++",
-      "framework_library": "PytorchFlask / Tensorflow / Flask / Scikit-learn / Etc..(openCV, FFmpeg)"
+      "메인 언어": "Python3",
+      "가능한 언어": "Bash, JAVA, C++, Python2",
+      "Framework 경험": "Pytorch 보통, Tensorflow(1.x and 2.x) 조금, Flask 보통, Scikit-learn 보통, openCV 조금, FFmpeg 조금", 
+      "주로 사용하는 환경": "Docker, Colab, virtualenv, conda",
+      "어느정도 다뤄본 IDE": "Vim + Terminal, Jupyter, VS Code, PyCharm, sublime text 3, spyder, Putty",
+      "이외의 능력": "의사소통 능력, 그때그때 찾아서 해결하는 능력이 충분히 있다고 생각함, 서버 작업 스케줄러 사용경험 있음"
     }
 }

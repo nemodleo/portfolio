@@ -5,77 +5,77 @@
           "title": "unMask",
           "period": "Aug. 2021 ~ Present",
           "github": "https://github.com/nemodleo/unMask",
-          "img": "http://placehold.it/320x200/E8157F/ffffff?text=sample",
-          "note": "un Mask "
+          "img": null,
+          "note": null
         },
         {
           "title": "2021 SNU FastMRI challenge",
           "period": "Jul. 2021 ~ Aug. 2021",
           "github": "https://github.com/nemodleo/FastMRI",
-          "img": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/efe425c4-ffe8-435a-9b06-51b75e1df3e9/brain100_image_grappa.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210825%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210825T192133Z&X-Amz-Expires=86400&X-Amz-Signature=1f259172fb5901746149a177745a19806dcaac91d6b331d3f114332ce66bbcd4&X-Amz-SignedHeaders=host",
+          "img": null,
           "note": null
         },
         {
           "title": "Connectome Lab Internship",
           "period": "Jan. 2021 ~ Jun. 2021",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": null
         },
         {
           "title": "Development of a Drunk Identifier Using Smartphone HRM Sensor",
           "period": "Aug. 2019 ~ Present",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Personally, I am producing an application to determine whether drunk using HRM sensor of Samsung smartphone"
         },
         {
           "title": "Extracting instrument sounds from songs through deep learning",
           "period": "Mar. 2019 ~ Aug. 2019",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "At the start-up club, PlusIt, participated in the team project. Especially, I did data design & processing."
         },
         {
           "title": "Development of Wearable Mouse Using Inertial Sensors",
           "period": "Jan. 2018 ~ Jul. 2018",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Developed Air Mouse using Tensorflow(1.x) and IMU Sensor. I wrote my graduation thesis through this personal research."
         },
         {
           "title": "Creating a music genre Classifier through multi-dimensional entropy analysis",
           "period": "Aug. 2017 ~ Dec.2017",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "As a team leader, by defining various entropy and applying it to machine learning, the music genre Classifieris produced with the best-learned model."
         },
         {
           "title": "Hand coding in Hangeul",
           "period": "Aug. 2017 ~ Dec.2017",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Produces a program when you write letters through a self-made pen, the recognized letters are printed and \t\texecutes commands."
         },
         {
           "title": "Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition",
           "period": "Mar. 2017 ~ Dec. 2017",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Instructed by Prof. Jongseok Lee of Yonsei University. The role of a team leader who leads a group of four members."
         },
         {
           "title": "Computational Neuroscience with Matlab/Octave",
           "period": "Jan.2017 ~ Jan.2017",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Participated in the Global Research Program and took an intensive 6-day course on Computational Neuroscience(Minjoon Kouh, Associate Professor from Drew University in Madison, NJ, USA)."
         },
         {
           "title": "(Research) A Note on Plurality method and Borda count methond",
           "period": "Mar. 2016 ~ Dec.2016",
           "github": null,
-          "img": "http://placehold.it/320x100/E8117F/ffffff?text=sample",
+          "img": null,
           "note": "Instructed by Prof. Nahmwoo Hahn of Incheon National University."
         }
     ]

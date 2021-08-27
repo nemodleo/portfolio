@@ -1,0 +1,16 @@
+{
+    "name": "HYUN PARK",
+    "department": "Dept. of Computer Science and Engineering",
+    "school": "Seoul National University",
+    "email": "nemod.leo@snu.ac.kr",
+    "mobile": "+82-10-4186-7148",
+    "interest": [
+      "asdf",
+      "Medical imaging"
+    ],
+    "skills": {
+      "language": "Python(2.x and 3.x) / JAVA / C++",
+      "framework_library": "PytorchFlask / Tensorflow / Flask / Scikit-learn / Etc..(openCV, FFmpeg)"
+    },
+    "note": "bla"
+}

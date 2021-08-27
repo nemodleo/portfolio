@@ -1,35 +1,40 @@
 { 
     "experiences": [{
+      "title": "2021 SNU FastMRI Challenge",
+      "place": "Seoul, Korea",
+      "type": "Challenge",
+      "period": "Jul. 2021 ~ Aug. 2021",
+      "note": "Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(muilti coils compression with Espirit and PCA), Model structure, Model optimization",
+      "link": "http://fastmri.snu.ac.kr/"
+    },{
     "title": "Connectome Lab Internship",
     "place": "Seoul, Korea",
     "type": "Intern",
     "period": "Jan. 2021 ~ Jun. 2021",
-    "note": null
+    "note": "UKB/ABCD GWAS study, GANBERT study, Server sub-administrator(Server environment establishment, Management program implementation)",
+    "link": "https://sites.google.com/connectomelab.net/snu/home"
   },
   {
     "title": "Seoul National University, Dept. of Computer Science and Engineering",
     "place": "Seoul, Korea",
     "type": "Student",
     "period": "Mar. 2019 ~",
-    "note": "Majoring in of Computer Science and Engineering"
+    "note": "Majoring in of Computer Science and Engineering",
+    "link": "https://cse.snu.ac.kr/"
   },
   {
     "title": "Incheon Academy of Science and Arts",
     "place": "Incheon, Korea",
     "type": "Student",
     "period": "Mar. 2016 ~ Jan. 2019",
-    "note": null
+    "note": "영재학교입니다",
+    "link":"http://iasa.icehs.kr/main.do"
   }],
   "achievements": [
     {
-      "title": "Tensorflow Certification",
-      "period": "Oct. 2021",
-      "note": null
-    },
-    {
       "title": "Samsung Humantech Paper Award - Participation Award",
-      "period": null,
-      "note": "Thesis= Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles= Leader and Speaker"
+      "period": "Mar. 2017 ~ Dec. 2017",
+      "note": "Thesis: Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles: Leader and Speaker"
     }
   ]
 }

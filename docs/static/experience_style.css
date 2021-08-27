@@ -1,0 +1,18 @@
+h3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h5
+{
+    margin-top: 20px;
+}
+h5, h6 {
+    display: inline-block;
+}
+.main_box
+{
+    margin-bottom: 130px;
+}

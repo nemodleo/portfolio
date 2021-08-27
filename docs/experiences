@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="Hyun Park"
+          content="portfolio"
+        />
+        <link rel="stylesheet" href="/static/style.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+        
+<link rel="stylesheet" href="/static/experience_style.css" >
+
+    </head>
+    <body>
+        <header>
+        <nav class="head">
+            <ul>
+                <li><a href="/">Info</a></li>
+                <li><a href="/experiences">Experiences</a></li>
+                <li><a href="/projects">Projects</a></li>
+            </ul>
+        </nav>
+        </header>
+        
+        <div class="container">
+            
+<div class="main_box">
+    <h3>Main Experiences</h3>
+    
+    <h5>[Challenge] <a href=http://fastmri.snu.ac.kr/>2021 SNU FastMRI Challenge</a></h5> <h6>Jul. 2021 ~ Aug. 2021</h6>
+    <p>Duya Team(2 person), Study(MRI/Signal/Sampling), Data preprocessing(muilti coils compression with Espirit and PCA), Model structure, Model optimization</p>
+    
+    <h5>[Intern] <a href=https://sites.google.com/connectomelab.net/snu/home>Connectome Lab Internship</a></h5> <h6>Jan. 2021 ~ Jun. 2021</h6>
+    <p>UKB/ABCD GWAS study, GANBERT study, Server sub-administrator(Server environment establishment, Management program implementation)</p>
+    
+    <h5>[Student] <a href=https://cse.snu.ac.kr/>Seoul National University, Dept. of Computer Science and Engineering</a></h5> <h6>Mar. 2019 ~</h6>
+    <p>Majoring in of Computer Science and Engineering</p>
+    
+    <h5>[Student] <a href=http://iasa.icehs.kr/main.do>Incheon Academy of Science and Arts</a></h5> <h6>Mar. 2016 ~ Jan. 2019</h6>
+    <p>영재학교입니다</p>
+    
+</div>
+<div class="main_box">
+    <h3>Main Achievements</h3>
+    
+    <h5>Samsung Humantech Paper Award - Participation Award</h5> <h6>Mar. 2017 ~ Dec. 2017</h6>
+    <p>Thesis: Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles: Leader and Speaker</p>
+    
+
+    <h5 style="text-decoration:line-through">Tensorflow Certification</h5> <h6>Oct. 2021</h6>
+    <p style="text-decoration:line-through">I prepared it, but the notebook broke, so I plan to test it later.</p>
+
+</div>
+
+        </div>
+        
+        
+        
+
+    </body>
+ </html>
