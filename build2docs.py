@@ -13,8 +13,11 @@ def build2docs():
         code = f.read()
         f.close()
         g = open(h, 'w',  encoding='UTF8')
-        code_w = code.replace("/static","/{}/static".format(git_repo))
-        g.write(code_w)
+        code = code.replace("/static", "/{}/static".format(git_repo))
+        code = code.replace("/", "/portfolio/")
+        code = code.replace("/experiences/", "/portfolio/experiences/")
+        code = code.replace("/projects/", "/portfolio/projects/")
+        g.write(code)
         g.close()
 
     shutil.move("build", "docs")
