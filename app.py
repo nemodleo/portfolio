@@ -31,6 +31,9 @@ def project():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
+        
+        app.debug = False
+        app.testing = True
         freezer.freeze()
     else:
         app.run(port=10001)

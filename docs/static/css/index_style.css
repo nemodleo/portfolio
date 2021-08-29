@@ -55,7 +55,24 @@ h3
 {
     width: 30px;
     height: 20px;
- 
+}
+.allow span {
+    position: absolute;
+    top: 900%;
+    right: 51%;
+}
+
+.allow span::after {
+    content: '';
+    width: 15px; /* 사이즈 */
+    height: 15px; /* 사이즈 */
+    border-top: 2px solid #121212; /* 선 두께 */
+    border-right: 2px solid #121212; /* 선 두께 */
+    display: inline-block;
+    transform: rotate(135deg); /* 각도 */
+    position: absolute;
+    top: 0px; /* 기본 0px 값으로 해주세요 */
+    left:0px; /* 기본 0px 값으로 해주세요 */
 }
 .bottom_main
 {

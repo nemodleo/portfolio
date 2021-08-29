@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ url_for('static', filename='index_style.css') }}" >
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index_style.css') }}" >
 {% endblock %}
 
 {% block content %}
@@ -58,11 +58,14 @@
 
 <div class="icons">
     <div class="icons_box">
-        <a href=mailto:{{infos.email}}><img class="title-logo" src="static/images/gmail.svg"></a>
-        <a href={{infos.github}}><img class="title-logo" src="static/images/github.svg"></a>
-        <a href={{infos.docker}}><img class="title-logo" src="static/images/docker.svg"></a>
-        <a href={{infos.notion}}><img class="title-logo" src="static/images/notion.svg"></a>
-        <a href={{infos.linkedin}}><img class="title-logo" src="static/images/linkedin.svg"></a>
+        <a href=mailto:{{infos.email}}><img class="title-logo" src="{{ url_for('static', filename='/images/gmail.svg') }}"></a>
+        <a href={{infos.github}}><img class="title-logo" src="{{ url_for('static', filename='/images/github.svg') }}"></a>
+        <a href={{infos.docker}}><img class="title-logo" src="{{ url_for('static', filename='/images/docker.svg') }}"></a>
+        <a href={{infos.notion}}><img class="title-logo" src="{{ url_for('static', filename='/images/notion.svg') }}"></a>
+        <a href={{infos.linkedin}}><img class="title-logo" src="{{ url_for('static', filename='/images/linkedin.svg') }}"></a>
     </div>
+</div>
+<div class="allow">
+    <span></span>
 </div>
 {% endblock %}

@@ -32,8 +32,13 @@
   }],
   "achievements": [
     {
+      "title": "Netional Technical Qualification Certification - 정보처리산업기사",
+      "period": "Jun. 2021",
+      "note": ""
+    },
+    {
       "title": "Samsung Humantech Paper Award - Participation Award",
-      "period": "Mar. 2017 ~ Dec. 2017",
+      "period": "Jan. 2018",
       "note": "Thesis: Development of Virtual Reality Piano App Using Wearable Devices and Machine Learning-Based Hand Behavior Recognition Roles: Leader and Speaker"
     }
   ]
