@@ -2,9 +2,121 @@
     "projects":
     [
         {
+          "title": "Pokeit - Recommandation",
+          "period": "Jun. 2023 ~ Present",
+          "github": "https://pokeit.ai/",
+          "img": "pokeit.png",
+          "note": "개인화 이미지 추천 시스템 개발 진행 중 @lionrocket"
+        },
+        {
+          "title": "webtoon genai tool - colorization",
+          "period": "May. 2023 ~ Present",
+          "github": "",
+          "img": "color.png",
+          "note": "auto object colorization, GenAI, identity preservation, 3d lora @lionrocket"
+        },
+        {
+          "title": "webtoon genai tool - sketch2pentouch",
+          "period": "May. 2023 ~ Present",
+          "github": "",
+          "img": "sketch2pen.png",
+          "note": "sketch to pentouch, GenAI @lionrocket"
+        },
+        {
+          "title": "Pokeit",
+          "period": "Aug. 2023 ~ Present",
+          "github": "https://pokeit.ai/",
+          "img": "pokeit.png",
+          "note": "Video 혹은 Image Animation(ex, Talking Head) 제안 및 개발 및 지원 @lionrocket"
+        },
+        {
+          "title": "Video GenAI",
+          "period": "Apr. 2023 ~ Apr. 2023",
+          "github": "",
+          "img": "videoganai.gif",
+          "note": "Video GenAI 관련 리서치, 특히 애니메이션 관련 @lionrocket"
+        },
+        {
+          "title": "Hand Discriminator Guidance - GenAI",
+          "period": "Apr. 2023 ~ May. 2023",
+          "github": "",
+          "img": "handdg.png",
+          "note": "손 건전성 개선을 위한 실험, HandDG+inpainting으로 잘못된 손을 올바르게 다시 그려줌, DG paper를 Hand에 적용하여 개발 @lionrocket"
+        },
+        {
+          "title": "New Species - GenAI",
+          "period": "Mar. 2023 ~ Mar. 2023",
+          "github": "",
+          "img": "mix.png",
+          "note": "GenAI 관련 여러 아이디어 제안 @lionrocket"
+        },
+        {
+          "title": "variart",
+          "period": "Feb. 2023 ~ Mar. 2023",
+          "github": "https://variart.ai/",
+          "img": "variart.webp",
+          "note": "'jailbreak any image!' image variation service. idea 제안 @lionrocket"
+        },
+        {
+          "title": "Diet",
+          "period": "Apr. 2023 ~ Apr. 2023",
+          "github": "",
+          "img": "diet.gif",
+          "note": "@lionrocket"
+        },
+        {
+          "title": "Shape Swapping",
+          "period": "Jan. 2023 ~ Feb. 2023 ",
+          "github": "",
+          "img": "shapeswap.png",
+          "note": "얼굴 유사도를 높이기 위해 턱 형태만 바꾸는 모델을 개발, FlowFace, FaceInpainter, MiCa @lionrocket"
+        },
+        {
+          "title": "Meverse",
+          "period": "Jan. 2023 ~ Feb. 2023",
+          "github": "https://meverse.ai/",
+          "img": "meverse.jpeg",
+          "note": "자신의 얼굴으로 다양한 스타일 이미지 생성하는 서비스. 직접 개발한 Face Swapping 모델를 서비스 주기술로 사용함, 유사도 개선에 집중 @lionrocket"
+        },
+        {
+          "title": "Yes Laughing",
+          "period": "Oct. 2022 ~ Nov. 2022",
+          "github": "https://github.com/nemodleo/yes_laughing",
+          "img": "yes_laughing.gif",
+          "note": "습터디(6인, 사내 스터디) 'AI를 활용한 미디어 아트' 리더. GAN-Supervised Dense Visual Alignment(GANgealing)을 이용하여 실시간 웃는 얼굴 작품을 제작 @lionrocket"
+        },
+        {
+          "title": "Veryme",
+          "period": "Apr. 2022 ~ Jan .2023",
+          "github": "https://veryme.ai/",
+          "img": "veryme.jpeg",
+          "note": "나만을 위한 버추얼 페이스로 이미지 및 영상 얼굴 변환 서비스. 개발한 서비스 주기술로 사용함, 건전성 및 강건성 개선에 집중 @lionrocket"
+        },
+        {
+          "title": "Face Swapping with Real Time",
+          "period": "Jan. 2021 ~ Jan .2023",
+          "github": "",
+          "img": "lr.webp",
+          "note": "(Leader): research, develop & optimize a full pipeline (ex, model design, data preprocessing and inference optimization) @lionrocket"
+        },
+        {
+          "title": "OnAir Studio",
+          "period": "Oct. 2021 ~ . 2021",
+          "github": "https://onairstudio.ai/",
+          "img": "onair.png",
+          "note": "Super Resolution 리서치 하여 적합한 모델을 선정 및 배포, Face Swapping 모델 사용아여 b2b 파이프 라인 시간 단축 @lionrocket"
+        },
+        {
+          "title": "LR VISION",
+          "period": "Oct. 2021 ~ Oct. 2021",
+          "github": "",
+          "img": "pytorchlightning.png",
+          "note": "Vision Research Framework: developed a PyTorch-Lightning-based integrated research environment @lionrocket"
+        },
+        {
           "title": "unMask",
           "period": "Aug. 2021 ~ Present",
-          "github": "https://github.com/nemodleo/unMask",
+          "github": "",
           "img": "mask.jpg",
           "note": "Estimate the part of the face that is covered by the mask with WGAN-GP and Flask web serving. (I am going to be used) StyleGAN2 i2i / Korean idol actor politician style / etc"
         },
