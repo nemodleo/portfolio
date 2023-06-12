@@ -7,21 +7,17 @@
 
 {% block content %}
 <div class="main_box">
-    <h3>Main Experiences</h3>
+    <h3>Experiences</h3>
     {% for experience in infos.experiences %}
     <h5>[{{experience.type}}] <a href={{experience.link}}>{{experience.title}}</a></h5> <h6>{{experience.period}}</h6>
     <p>{{experience.note}}</p>
     {% endfor %}
 </div>
 <div class="main_box">
-    <h3>Main Achievements</h3>
+    <h3>Achievements</h3>
     {% for achievement in infos.achievements %}
     <h5>{{achievement.title}}</h5> <h6>{{achievement.period}}</h6>
     <p>{{achievement.note}}</p>
     {% endfor %}
-
-    <h5 style="text-decoration:line-through">Tensorflow Certification</h5> <h6>Oct. 2021</h6>
-    <p style="text-decoration:line-through">I prepared it, but the notebook broke, so I plan to test it later.</p>
-
 </div>
 {% endblock %}

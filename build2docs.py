@@ -6,8 +6,8 @@ def build2docs():
     _, git_repo = os.path.split(os.getcwd())
     print(git_repo)
 
-    if Path("./docs").exists():
-        os.rmdir("./docs")
+    if Path("docs").exists():
+        shutil.rmtree("docs")
 
     html = [file for file in glob.glob("build/**", recursive=True) if file.endswith(".html")]
     print(html)

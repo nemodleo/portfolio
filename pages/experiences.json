@@ -1,5 +1,13 @@
 { 
-    "experiences": [{
+    "experiences": [
+    {
+      "title": "Lionrocket inc",
+      "place": "Seoul, Korea",
+      "type": "MLE",
+      "period": "Oct. 2021 ~",
+      "note": "Majoring in of Computer Science and Engineering",
+      "link": "https://cse.snu.ac.kr/"
+    },{
       "title": "2021 SNU FastMRI Challenge",
       "place": "Seoul, Korea",
       "type": "Challenge",
@@ -27,7 +35,7 @@
     "place": "Incheon, Korea",
     "type": "Student",
     "period": "Mar. 2016 ~ Jan. 2019",
-    "note": "영재학교입니다",
+    "note": "영재학교",
     "link":"http://iasa.icehs.kr/main.do"
   }],
   "achievements": [
